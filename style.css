@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    top: 15%;
+    background: linear-gradient(to right, red, yellow);
+}
+
+h1 {
+    font: 600 3em 'Raleway', sans-serif;
+    width: 100%;
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    margin-top: 0;
+}
+
+button {
+    margin: 15px auto ;
+    text-transform: uppercase;
+}
